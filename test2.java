@@ -1,8 +1,10 @@
 public class test2 {
 
     public static void main(String[] args) {
-        
-           int n =5;
+
+        Scanner in=new Scanner(System.in);
+        System.out.println(" Enter a N value :");
+         int n=in.nextInt();
 
            for(int i=1; i<=n; i++){
 
@@ -12,6 +14,7 @@ public class test2 {
              }
              System.out.println();
 
+        
            }
 
     }
